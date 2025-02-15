@@ -1,5 +1,9 @@
-import Image from "next/image";
+const Home = () => {
+  return (
+    <>
+      <p className='flex flex-row'>Go to nextjs.org →</p>
+    </>
+  );
+};
 
-export default function Home() {
-  return <p>Go to nextjs.org →</p>;
-}
+export default Home;

@@ -1,3 +1,5 @@
-export default function AuthPage() {
-  return <h1 className="text-xl text-blue-800 w-full">Auth</h1>;
-}
+const AuthPage = () => {
+  return <h1 className='w-full text-xl text-blue-800'>Auth</h1>;
+};
+
+export default AuthPage;
